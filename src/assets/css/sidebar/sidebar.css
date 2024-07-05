@@ -1,0 +1,66 @@
+@import "./about-item.css";
+@import "./body.css";
+@import "./footer.css";
+
+.sidebar {
+  grid-row: 1 / -1;
+  width: 100%;
+  /* max-width: 21.875rem; */
+  padding: 1.875rem;
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.sidebar-header-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  padding-bottom: 14px;
+}
+
+.sidebar-img-wrapper {
+  width: 11.25rem;
+  height: 11.25rem;
+  overflow: hidden;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  box-shadow: -3px -3px 2px rgba(255, 255, 255, 0.26),
+    2px 2px 5px rgba(12, 12, 12, 0.3);
+}
+
+.sidebar-profile-image {
+  width: inherit;
+  height: inherit;
+  max-width: inherit;
+  object-fit: contain;
+  object-position: 50% 20px;
+  transform: scale(1.6);
+  -webkit-transform: scale(1.6);
+  -moz-transform: scale(1.6);
+  -ms-transform: scale(1.6);
+  -o-transform: scale(1.6);
+}
+
+.sidebar-info {
+  display: contents;
+}
+
+.sidebar-title-name {
+  color: var(--font-primary-color);
+  font-size: 2.125rem;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 5px;
+}

@@ -1,0 +1,14 @@
+.sidebar-body-list {
+  margin: 10px 0;
+}
+
+.sidebar-body-list li {
+  margin: 40px 0 40px 0;
+}
+.sidebar-body-list li:first-child {
+  margin: 0 0 40px 0;
+}
+
+.sidebar-body-list li:last-child {
+  margin: 40px 0 0 0;
+}

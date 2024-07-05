@@ -1,0 +1,9 @@
+.sidebar-social-media-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.sidebar-social-media-wrapper .social-media-button span {
+  color: var(--white-color);
+  font-size: 20px;
+}

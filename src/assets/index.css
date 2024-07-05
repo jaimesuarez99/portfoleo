@@ -1,0 +1,64 @@
+@import "./css/sidebar/sidebar.css";
+@import "./css/main.css";
+@import "./css/navbar.css";
+@import "./css/badge.css";
+@import "./css/divider.css";
+@import "./css/icons.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #1d267d;
+  --secondary-color: #3f49a6;
+  --tertiary-color: #0c134f;
+  --accent-color: #fffd54;
+  --button-color: #5c469c;
+  --white-color: #f1f6f9;
+
+  --font-family: "Poppins", sans-serif;
+  --font-primary-color: #f1f6f9;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  font: inherit;
+  background: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+}
+
+html {
+  font-family: var(--font-family);
+  height: 100vh;
+}
+
+body {
+  height: 100vh;
+}
+#root {
+  display: grid;
+  grid-template-columns: minmax(17rem, 21.875rem) 1fr;
+  grid-column-gap: 40px;
+  padding: 2rem;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
