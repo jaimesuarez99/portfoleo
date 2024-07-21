@@ -53,11 +53,12 @@ html {
 body {
   height: 100vh;
 }
+
 #root {
   display: grid;
   grid-template-columns: minmax(17rem, 21.875rem) 1fr;
   grid-column-gap: 40px;
-  padding: 2rem;
+  padding: 2rem 8rem;
   height: 100%;
   overflow-x: hidden;
   overflow-y: scroll;
